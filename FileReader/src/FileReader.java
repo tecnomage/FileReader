@@ -14,8 +14,8 @@ public class FileReader {
 			System.out.println("Digite sua mensagem:");
 			while (entrada.hasNextLine()) {
 				String[] entradaDelimitada = entrada.nextLine().split("/"); 
-				for (String string : entradaDelimitada) {
-					System.out.println(string);
+				for (String saidaUnica : entradaDelimitada) {
+					System.out.println(saidaUnica);
 				}
 				
 				
